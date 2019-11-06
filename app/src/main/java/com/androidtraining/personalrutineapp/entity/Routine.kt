@@ -1,7 +1,9 @@
 package com.androidtraining.personalrutineapp.entity
 
-import android.arch.persistence.room.*
-import android.support.annotation.NonNull
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import androidx.room.TypeConverters
 import com.androidtraining.personalrutineapp.converter.ListConverter
 import java.util.*
 

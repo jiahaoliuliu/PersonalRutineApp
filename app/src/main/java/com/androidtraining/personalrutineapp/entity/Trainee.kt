@@ -1,6 +1,6 @@
 package com.androidtraining.personalrutineapp.entity
 
-import android.arch.persistence.room.*
+import androidx.room.*
 
 
 @Entity(indices = [Index("name"), Index("age")],

@@ -1,6 +1,6 @@
 package com.androidtraining.personalrutineapp.converter
 
-import android.arch.persistence.room.TypeConverter
+import androidx.room.TypeConverter
 import com.androidtraining.personalrutineapp.entity.Exercise
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

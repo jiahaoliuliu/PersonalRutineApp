@@ -1,12 +1,11 @@
 package com.androidtraining.personalrutineapp
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.androidtraining.personalrutineapp.dao.GenderDao
 import com.androidtraining.personalrutineapp.dataBase.AppDatabase
 import com.androidtraining.personalrutineapp.entity.Gender
 import io.reactivex.Observable
-import io.reactivex.Scheduler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_main.tv_message
